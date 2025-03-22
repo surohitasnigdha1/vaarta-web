@@ -29,7 +29,7 @@ def google_fact_check(text):
         url = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
         params = {
             "query": text,
-            "key": "AIzaSyCkNW1F-8MW9xq2ABxYXoHyzejHfEE5Ye0"  # Replace with your Google API key
+            "key": "USE YOUR KEY"  # Replace with your Google API key
         }
         response = requests.get(url, params=params)
         if  response.status_code == 200:
